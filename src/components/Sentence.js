@@ -13,61 +13,61 @@ import Ten from './Sentences/Ten';
 
 const Sentence = (props) => {
     const { index } = props.match.params;
-    if (index===1) {
+    if (index==="1") {
         return (
             <React.Fragment>
                 <One/>
             </React.Fragment>
         );
-    } else if (index===2) {
+    } else if (index==="2") {
         return (
             <React.Fragment>
                 <Two/>
             </React.Fragment>
         );
-    } else if (index===3) {
+    } else if (index==="3") {
         return (
             <React.Fragment>
                 <Three/>
             </React.Fragment>
         );
-    } else if (index===4) {
+    } else if (index==="4") {
         return (
             <React.Fragment>
                 <Four/>
             </React.Fragment>
         );
-    } else if (index===5) {
+    } else if (index==="5") {
         return (
             <React.Fragment>
                 <Five/>
             </React.Fragment>
         );
-    } else if (index===6) {
+    } else if (index==="6") {
         return (
             <React.Fragment>
                 <Six/>
             </React.Fragment>
         );
-    } else if (index===7) {
+    } else if (index==="7") {
         return (
             <React.Fragment>
                 <Seven/>
             </React.Fragment>
         );
-    } else if (index===8) {
+    } else if (index==="8") {
         return (
             <React.Fragment>
                 <Eight/>
             </React.Fragment>
         );
-    } else if (index===9) {
+    } else if (index==="9") {
         return (
             <React.Fragment>
                 <Nine/>
             </React.Fragment>
         );
-    } else if (index===10) {
+    } else if (index==="10") {
         return (
             <React.Fragment>
                 <Ten/>
