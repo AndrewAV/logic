@@ -17,7 +17,7 @@ const Four = () => {
         <React.Fragment>
             <h1>4. Calcular la superficie de un triangulo.</h1>
             <div>
-                <label>First Number: </label>
+                <label>Base: </label>
                 <input
                     type="number"
                     value={base}
@@ -27,7 +27,7 @@ const Four = () => {
             </div>
 
             <div>
-                <label>Second Number: </label>
+                <label>Height: </label>
                 <input
                     type="number"
                     value={height}
