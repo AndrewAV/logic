@@ -3,11 +3,11 @@ import Card from './Card';
 import { Link } from 'react-router-dom';
 
 const statements = [
-    ["1", "Calcular la paga neta de un trabajador conociendo el número de horas trabajadas, la tarifa horaria y la tasa de impuestos."],
+    ["1", "Calculate Your Salary."],
     ["2", "Sumar, restar, multiplicar o dividir numeros enteros."],
-    ["3", "Calcular la velocidad en m/s del corredor en la carrera de 1500m."],
+    ["3", "Calculate Your Average Speed."],
     ["4", "Calcular la superficie de un triangulo."],
-    ["5", "Calcular el salario de un trabajador según la tarifa horaria y las horas trabajadas diariamente."],
+    ["5", "Calculate Your Salary On A Week."],
     ["6", "Dadas dos variables A y B realizar un intercambio entre ambas."],
     ["7", "Calcular la distancia recorrida en metros de un auto que tienre una velocidad constante 'm/s' en un un tiempo 's'."],
     ["8", "Obtener el promedio simple de un estudiente con sus tres notas parciales."],

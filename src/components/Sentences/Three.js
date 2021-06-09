@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../Numbers.css';
 
 
 const Three = () => {
@@ -14,13 +15,14 @@ const Three = () => {
 
     function VelocityCalculatorScreen() {
 
-        let velocity = ( 1500 / (minutes * 60 + seconds));
+        let velocity = ( 1500 / (60 * minutes+ seconds));
 
+    
         if (0 < velocity < 7) {
             return "Your velocity is=" + velocity;
         }
         if (velocity >= 7 && velocity < 9) {
-            return "Woo your velocity is=" + velocity + "that could be a new world record";
+            return "Wow your velocity is=" + velocity + "that could be a new world record";
         }
         if (velocity >= 9) {
             return "You should do it running, the world record is 7,28m/s"
@@ -45,10 +47,11 @@ const Three = () => {
         <React.Fragment>
             <div className="BmiCalculator">
                 <div>
-                    <h3> {VelocityCalculatorScreen()} </h3>
+                    <h1 className="danger topLeft">Calculate Your Average Speed On 1500m</h1>
+                    <h3 className="danger"> {VelocityCalculatorScreen()} </h3>
                 </div>
 
-                <div className="number-inputs">
+                <div className="number-inputs dataNumbers">
 
                     Minutes<input className="holderColor" type="number" placeholder="Minutes" value={minutes} onChange={(e) => setMinutes(e.target.value)} /> <br />
                     Seconds<input className="holderColor" type="number" placeholder="Seconds" value={seconds} onChange={(e) => setSeconds(e.target.value)} />

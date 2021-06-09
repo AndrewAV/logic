@@ -59,6 +59,7 @@ const Seven = () => {
         <React.Fragment>
             <div className="BmiCalculator">
                 <div>
+                    <h1 className="danger topLeft">Calculate Your Salary</h1>
                     <h3> {VelocityCalculatorScreen()} </h3>
                 </div>
 

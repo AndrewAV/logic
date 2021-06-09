@@ -20,7 +20,7 @@ const Five = () => {
             return "You can´t have negative numbers in here, please check it!"
         }
         else {
-            return "Your salary is=" + pay * hours * days ;
+            return "Your salary is=" + pay * hours * days;
         }
     }
 
@@ -32,6 +32,7 @@ const Five = () => {
         <React.Fragment>
             <div className="BmiCalculator">
                 <div>
+                    <h1 className="danger topLeft">Calculate Your Salary On A Week</h1>
                     <h3> {SalaryCalculatorScreen()} </h3>
                 </div>
 
