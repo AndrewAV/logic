@@ -8,40 +8,29 @@ const One = () => {
 
     const [pay, setPay] = useState();
     const [hours, setHours] = useState();
+    const [tax, setTax] = useState();
     const [totalSalary, setTotalSalary] = useState();
 
     const resetButton = () => {
         setTotalSalary();
         setPay("");
         setHours("");
+        setTax("");
     };
 
     function SalaryCalculatorScreen() {
-
-        let salaryval = (pay / (hours / 100) ** 2).toFixed(1);
-        //setBmi(bmival);
-        if (salaryval < 5) {
-            return "Please check out your dates"
+        if (tax < 0 || hours < 0 || pay < 0) {
+            return "You can´t have negative numbers in here, please check it!"
         }
-        if (salaryval < 18.5) {
-            return "BMI=" + salaryval;
+        else if (tax >= 100) {
+            return "Please check your tax"
         }
-        if (salaryval >= 18.5 && salaryval <= 24.9) {
-            return "BMI=" + salaryval;
+        else if (tax == 0) {
+            return "Your salary is=" + (pay * hours);
         }
-        if (salaryval >= 25 && salaryval < 29.9) {
-            return "BMI=" + salaryval;
+        else {
+            return "Your salary is=" + (pay * hours) * (1 - tax / 100);
         }
-        if (salaryval >= 30 && salaryval < 35) {
-            return "BMI=" + salaryval;
-        }
-        if (salaryval >= 35 && salaryval < 100) {
-            return "BMI=" + salaryval;
-        }
-        if (salaryval = { Infinity }) {
-            return ""
-        }
-
     }
 
 
@@ -57,8 +46,9 @@ const One = () => {
 
                 <div className="number-inputs">
 
-                    Pay<input className="holderColor" type="number" placeholder="pay" value={pay} onChange={(e) => setPay(e.target.value)} /> <br />
-                    Hours<input className="holderColor" type="number" placeholder="hours" value={hours} onChange={(e) => setHours(e.target.value)} />
+                    Pay<input className="holderColor" type="number" placeholder="Pay" value={pay} onChange={(e) => setPay(e.target.value)} /> <br />
+                    Hours<input className="holderColor" type="number" placeholder="Hours" value={hours} onChange={(e) => setHours(e.target.value)} />
+                    Tax<input className="holderColor" type="number" placeholder="Tax" value={tax} onChange={(e) => setTax(e.target.value)} />
                 </div>
 
                 <button className="btn btn-danger" onClick={resetButton} >Reset</button>
