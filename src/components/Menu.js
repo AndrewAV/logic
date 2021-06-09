@@ -8,7 +8,7 @@ const statements = [
     ["3", "Calcular la velocidad en m/s del corredor en la carrera de 1500m."],
     ["4", "Calcular la superficie de un triangulo."],
     ["5", "Calcular el salario de un trabajador según la tarifa horaria y las horas trabajadas diariamente."],
-    ["6", "Dadas dos variables A y B rea lizar un intercambio entre ambas."],
+    ["6", "Dadas dos variables A y B realizar un intercambio entre ambas."],
     ["7", "Calcular la distancia recorrida en metros de un auto que tienre una velocidad constante 'm/s' en un un tiempo 's'."],
     ["8", "Obtener el promedio simple de un estudiente con sus tres notas parciales."],
     ["9", "Calcular resultado de una prueba, segun respuestas correctas, incorrectas o en blanco."],
