@@ -55,8 +55,8 @@ const Three = () => {
 
                 <div className="number-inputs dataNumbers">
 
-                    Minutes<input className="holderColor" type="number" placeholder="Minutes" value={minutes} onChange={(e) => setMinutes(e.target.value)} /> <br />
-                    Seconds<input className="holderColor" type="number" placeholder="Seconds" value={seconds} onChange={(e) => setSeconds(e.target.value)} />
+                    <label>Minutes</label><input className="holderColor" type="number" placeholder="Minutes" value={minutes} onChange={(e) => setMinutes(e.target.value)} /> <br />
+                    <label>Seconds</label><input className="holderColor" type="number" placeholder="Seconds" value={seconds} onChange={(e) => setSeconds(e.target.value)} />
                 </div>
 
                 <button className="btn btn-danger" onClick={resetButton} >Reset</button>
