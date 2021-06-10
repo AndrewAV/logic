@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 const Ten = () => {
     const CDSize = 700;
     const megabyte = 1024;
-    const [hardDrive, setHardDrive] = useState();
+    const [hardDrive, setHardDrive] = useState("");
 
 
     const handleHardDriveChange = (event) => setHardDrive(event.target.value);
@@ -13,9 +13,10 @@ const Ten = () => {
     const calculateCD = () => {
         const HDDInBytes = hardDrive * megabyte;
         const necesaryCDs = HDDInBytes / CDSize;
-
-        return (`Space needed: ${HDDInBytes}Mb. \n
+        if (hardDrive != "") {
+            return (`Space needed: ${HDDInBytes}Mb. \n
                 Required CDs for the backup: ${Math.ceil(necesaryCDs)}`)
+        }
 
     }
 
