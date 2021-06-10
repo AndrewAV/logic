@@ -24,7 +24,7 @@ const Ten = () => {
     return (
         <React.Fragment>
             <h1>10. How many 700Mb CD's to backup my HDD.</h1>
-            <div>
+            <div className="dataNumbers">
                 <label>Total hard drive space in GB: </label>
                 <input
                     type="number"

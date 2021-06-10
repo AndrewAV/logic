@@ -20,7 +20,7 @@ const Six = () => {
     return (
         <React.Fragment>
             <h1>6. Swap two variables.</h1>
-            <div>
+            <div className="dataNumbers">
                 <label>A: </label>
                 <input
                     type="text"
@@ -29,7 +29,7 @@ const Six = () => {
                     onChange={handleAChange}
                 />
             </div>
-            <div>
+            <div className="dataNumbers">
                 <label>B: </label>
                 <input
                     type="text"
@@ -38,7 +38,7 @@ const Six = () => {
                     onChange={handleBChange}
                 />
             </div>
-            <div>
+            <div className="dataNumbers">
                 <label>Variables: </label>
                 <h1>A={A}  B={B}</h1>
             </div>

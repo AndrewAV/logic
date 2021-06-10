@@ -15,7 +15,7 @@ const Eight = () => {
     return (
         <React.Fragment>
             <h1>8. Final Note..</h1>
-            <div>
+            <div className="dataNumbers">
                 <label>First grade: </label>
                 <input
                     type="number"
@@ -24,7 +24,7 @@ const Eight = () => {
                     onChange={handleFirstGradeChange}
                 />
             </div>
-            <div>
+            <div className="dataNumbers">
                 <label>Second grade: </label>
                 <input
                     type="number"
@@ -33,7 +33,7 @@ const Eight = () => {
                     onChange={handleSecondGradeChange}
                 />
             </div>
-            <div>
+            <div className="dataNumbers">
                 <label>Third grade: </label>
                 <input
                     type="number"

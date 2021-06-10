@@ -26,7 +26,7 @@ const Two = () => {
     return (
         <React.Fragment>
             <h1>2. Calculator.</h1>
-            <div>
+            <div className="dataNumbers">
                 <label>First Number: </label>
                 <input
                     type="number"
@@ -36,7 +36,7 @@ const Two = () => {
                 />
             </div>
 
-            <div>
+            <div className="dataNumbers">
                 <label>Second Number: </label>
                 <input
                     type="number"

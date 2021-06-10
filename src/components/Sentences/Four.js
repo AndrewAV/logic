@@ -16,7 +16,7 @@ const Four = () => {
     return (
         <React.Fragment>
             <h1>4. Calculate The Area Of A Triangle..</h1>
-            <div>
+            <div className="dataNumbers">
                 <label>Base: </label>
                 <input
                     type="number"
@@ -26,7 +26,7 @@ const Four = () => {
                 />
             </div>
 
-            <div>
+            <div className="dataNumbers">
                 <label>Height: </label>
                 <input
                     type="number"
@@ -35,7 +35,7 @@ const Four = () => {
                     onChange={handleHeightChange}
                 />
             </div>
-            <div>
+            <div className="dataNumbers">
                 <button onClick={calculate}>
                     Calculate area.
                 </button>
