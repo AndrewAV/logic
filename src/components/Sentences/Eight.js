@@ -14,7 +14,7 @@ const Eight = () => {
 
     return (
         <React.Fragment>
-            <h1>8. Obtener el promedio simple de un estudiente con sus tres notas parciales.</h1>
+            <h1>8. Final Note..</h1>
             <div>
                 <label>First grade: </label>
                 <input

@@ -15,7 +15,7 @@ const Four = () => {
 
     return (
         <React.Fragment>
-            <h1>4. Calcular la superficie de un triangulo.</h1>
+            <h1>4. Calculate The Area Of A Triangle..</h1>
             <div>
                 <label>Base: </label>
                 <input

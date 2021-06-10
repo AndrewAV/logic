@@ -14,7 +14,7 @@ const Ten = () => {
         const HDDInBytes = hardDrive * megabyte;
         const necesaryCDs = HDDInBytes / CDSize;
 
-        return (`Space needed: ${HDDInBytes} bytes. \n
+        return (`Space needed: ${HDDInBytes}Mb. \n
                 Required CDs for the backup: ${Math.ceil(necesaryCDs)}`)
 
     }
@@ -23,7 +23,7 @@ const Ten = () => {
 
     return (
         <React.Fragment>
-            <h1>10. Calcular el número de CDs necesarios para hacer un respaldo de un disco duro lleno.</h1>
+            <h1>10. How many 700Mb CD's to backup my HDD.</h1>
             <div>
                 <label>Total hard drive space in GB: </label>
                 <input

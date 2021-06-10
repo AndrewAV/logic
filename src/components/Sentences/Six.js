@@ -19,7 +19,7 @@ const Six = () => {
 
     return (
         <React.Fragment>
-            <h1>6. Dadas dos variables A y B realizar un intercambio entre ambas.</h1>
+            <h1>6. Swap two variables.</h1>
             <div>
                 <label>A: </label>
                 <input

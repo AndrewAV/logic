@@ -25,7 +25,7 @@ const Two = () => {
 
     return (
         <React.Fragment>
-            <h1>2. Sumar, restar, multiplicar o dividir numeros enteros.</h1>
+            <h1>2. Calculator.</h1>
             <div>
                 <label>First Number: </label>
                 <input
