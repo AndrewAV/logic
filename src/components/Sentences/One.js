@@ -70,7 +70,7 @@ const One = () => {
                     <label>Tax</label>  <input className="holderColor" type="number" placeholder="Tax" value={tax} onChange={(e) => setTax(e.target.value)} />
                 </div>
 
-                <button className="btn btn-danger" onClick={resetButton} >Reset</button>
+                <button className="btn btn-danger btnText" onClick={resetButton} >Reset</button>
 
             </div>
         </React.Fragment>
