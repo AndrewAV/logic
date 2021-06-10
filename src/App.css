@@ -26,3 +26,8 @@ label {
   font-weight: bold;
   font-size: 50px;
 }
+
+.link{
+  text-decoration: none;
+  color: black;
+}
