@@ -43,7 +43,7 @@ const Five = () => {
                     <label>Days for week</label><input className="holderColor" type="number" placeholder="Days" value={days} onChange={(e) => setDays(e.target.value)} />
                 </div>
 
-                <button className="btn btn-danger" onClick={resetButton} >Reset</button>
+                <button className="btn btn-danger btnText" onClick={resetButton} >Reset</button>
 
             </div>
         </React.Fragment>

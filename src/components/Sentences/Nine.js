@@ -40,7 +40,7 @@ const Nine = () => {
                     <label>Empty Questions</label><input className="holderColor" type="number" placeholder="Empty Questions" value={empty} onChange={(e) => setEmpty(e.target.value)} />
                 </div>
 
-                <button className="btn btn-danger" onClick={resetButton} >Reset</button>
+                <button className="btn btn-danger btnText" onClick={resetButton} >Reset</button>
 
             </div>
         </React.Fragment>
