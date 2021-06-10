@@ -8,11 +8,11 @@ const statements = [
     ["3", "Calculate Your Average Speed."],
     ["4", "Calculate The Area Of A Triangle."],
     ["5", "Calculate Your Salary On A Week."],
-    ["6", "Swap two variable."],
+    ["6", "Swap two variables."],
     ["7", "Calculate The Distance Of Your Trip."],
     ["8", "Final Note."],
     ["9", "Total Points On Test."],
-    ["10", "How many CD´s to back my HDD."]
+    ["10", "How many 700Mb CD's to backup my HDD"]
 ]
 
 const Menu = () => {
