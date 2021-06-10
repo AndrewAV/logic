@@ -9,9 +9,9 @@ const statements = [
     ["4", "Calcular la superficie de un triangulo."],
     ["5", "Calculate Your Salary On A Week."],
     ["6", "Dadas dos variables A y B realizar un intercambio entre ambas."],
-    ["7", "Calcular la distancia recorrida en metros de un auto que tienre una velocidad constante 'm/s' en un un tiempo 's'."],
+    ["7", "Calculate The Distance Of Your Trip."],
     ["8", "Obtener el promedio simple de un estudiente con sus tres notas parciales."],
-    ["9", "Calcular resultado de una prueba, segun respuestas correctas, incorrectas o en blanco."],
+    ["9", "Total Points On Test."],
     ["10", "Calcular el número de CDs necesarios para hacer un respaldo de un disco duro lleno."]
 ]
 
