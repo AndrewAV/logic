@@ -12,7 +12,7 @@ const statements = [
     ["7", "Calculate The Distance Of Your Trip."],
     ["8", "Final Note."],
     ["9", "Total Points On Test."],
-    ["10", "How many 700Mb CD's to backup my HDD"]
+    ["10", "How many 700Mb CD's to backup my HDD."]
 ]
 
 const Menu = () => {
