@@ -8,11 +8,21 @@
   align-items: center;
   justify-content: center;
   background-color: #282c34;
-  color: rgb(100, 140, 210);
+  color: #C70039;
+  background-image: url("./math.webp");
+  background-repeat: no-repear;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .card{
   margin-bottom: 10px;
   margin-top: 10px;
   width: 60rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 50px;
 }

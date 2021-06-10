@@ -3,9 +3,9 @@ import '../Numbers.css';
 
 
 const Three = () => {
-    const [minutes, setMinutes] = useState();
-    const [seconds, setSeconds] = useState();
-    const [totalVelocity, setTotalVelocity] = useState();
+    const [minutes, setMinutes] = useState('');
+    const [seconds, setSeconds] = useState('');
+    const [totalVelocity, setTotalVelocity] = useState('');
 
     const resetButton = () => {
         setTotalVelocity();
@@ -15,14 +15,16 @@ const Three = () => {
 
     function VelocityCalculatorScreen() {
 
-        let velocity = ( 1500 / (60 * minutes+ seconds));
+        let velocity = ( 1500 / (60 * +minutes + +seconds) );
 
-    
+        if (minutes==0 && seconds==0) {
+            return ""
+        }
         if (0 < velocity < 7) {
-            return "Your velocity is=" + velocity;
+            return "Your velocity is=" + (velocity).toFixed(2) + "m/s";
         }
         if (velocity >= 7 && velocity < 9) {
-            return "Wow your velocity is=" + velocity + "that could be a new world record";
+            return "Wow your velocity is=" + (velocity).toFixed(2) + "m/s" + "that could be a new world record";
         }
         if (velocity >= 9) {
             return "You should do it running, the world record is 7,28m/s"

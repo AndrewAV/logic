@@ -59,15 +59,15 @@ const One = () => {
         <React.Fragment>
             <div className="BmiCalculator">
                 <div>
-                    <h1 className="danger topLeft">Calculate Your Salary</h1>
-                    <h3 className="danger"> {SalaryCalculatorScreen()} </h3>
+                    <h1 className="topLeft">Calculate Your Salary</h1>
+                    <h3> {SalaryCalculatorScreen()} </h3>
                 </div>
 
                 <div className="number-inputs dataNumbers">
 
-                    Pay Per Hour <input className="holderColor" type="number" placeholder="Pay" value={pay} onChange={(e) => setPay(e.target.value)} /> <br />
-                    Total Hours<input className="holderColor" type="number" placeholder="Hours" value={hours} onChange={(e) => setHours(e.target.value)} /> <br />
-                    Tax  <input className="holderColor" type="number" placeholder="Tax" value={tax} onChange={(e) => setTax(e.target.value)} />
+                    <label>Pay Per Hour</label> <input className="holderColor" type="number" placeholder="Pay" value={pay} onChange={(e) => setPay(e.target.value)} /> <br />
+                    <label>Total Hours</label><input className="holderColor" type="number" placeholder="Hours" value={hours} onChange={(e) => setHours(e.target.value)} /> <br />
+                    <label>Tax</label>  <input className="holderColor" type="number" placeholder="Tax" value={tax} onChange={(e) => setTax(e.target.value)} />
                 </div>
 
                 <button className="btn btn-danger" onClick={resetButton} >Reset</button>
