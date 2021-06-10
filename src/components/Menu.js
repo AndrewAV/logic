@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 
 const statements = [
     ["1", "Calculate Your Salary."],
-    ["2", "Sumar, restar, multiplicar o dividir numeros enteros."],
+    ["2", "Calculator."],
     ["3", "Calculate Your Average Speed."],
-    ["4", "Calcular la superficie de un triangulo."],
+    ["4", "Calculate The Area Of A Triangle."],
     ["5", "Calculate Your Salary On A Week."],
-    ["6", "Dadas dos variables A y B realizar un intercambio entre ambas."],
+    ["6", "Swap two variable."],
     ["7", "Calculate The Distance Of Your Trip."],
-    ["8", "Obtener el promedio simple de un estudiente con sus tres notas parciales."],
+    ["8", "Final Note."],
     ["9", "Total Points On Test."],
-    ["10", "Calcular el número de CDs necesarios para hacer un respaldo de un disco duro lleno."]
+    ["10", "How many CD´s to back my HDD."]
 ]
 
 const Menu = () => {
